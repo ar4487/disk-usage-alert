@@ -1,0 +1,14 @@
+# Ignore log files
+*.log
+
+# Ignore backup/temporary files
+*.swp
+*.tmp
+*~
+
+# Ignore OS files
+.DS_Store
+
+# Ignore environment/secret files (if added later)
+.env
+
