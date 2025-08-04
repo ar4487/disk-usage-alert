@@ -3,7 +3,7 @@
 # Disk Usage Alert Script for Linux
 
 THRESHOLD=80
-EMAIL='arpitbhadoria9@gmail.com'
+EMAIL='admin@gmail.com'
 LOG_FILE="/tmp/disk_usage_alert.log"
 
 DISK_STATS=$(df -h / | awk 'NR==2 {print $5 " " $4 " " $6}')
